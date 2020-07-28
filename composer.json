@@ -1,0 +1,25 @@
+{
+    "name": "ydalbj/ealsticsearch-search-builder",
+    "description": "Elasticsearch search builder package based on official Elasticsearch-php client",
+    "type": "library",
+    "authors": [{
+        "name": "liuhui",
+        "email": "liuhuidut@sina.com"
+    }],
+    "require": {
+        "elasticsearch/elasticsearch": "^7.0",
+        "laravel/framework": "^7.0",
+        "nesbot/carbon": "^2.37"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": { "Ydalbj\\ElasticsearchSearchBuilder\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
